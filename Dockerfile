@@ -12,7 +12,6 @@ RUN apt-get update && apt-get install -y \
 # directory used in any further RUN, COPY, and ENTRYPOINT 
 # commands.
 RUN mkdir -p /app
-WORKDIR /app
 
 # Copy the main application.
 COPY rails_app /app
