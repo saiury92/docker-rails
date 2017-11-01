@@ -13,8 +13,14 @@ git clone https://github.com/saiury92/docker-rails.git /path/to/docker-rails
 
 ## Create new rails app
 
+* Nếu máy bạn cài sẵn rails
 ```
 cd /path/to/docker-rails && rails new rails_app
+```
+
+* Nếu máy bạn không cài rails
+```
+cd /path/to/docker-rails && git checkout app_exist
 ```
 
 ## Build image demo
